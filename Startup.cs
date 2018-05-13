@@ -13,6 +13,7 @@ namespace Project_SBO
         public void Configure(IApplicationBuilder app)
         {
             app.UseMvc();
+            app.UseStaticFiles();
         }
     }
 }
